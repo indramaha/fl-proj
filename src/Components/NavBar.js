@@ -9,7 +9,7 @@ function NavBar() {
   return (
     <>
       {['lg'].map((expand) => (
-        <Navbar key={expand} bg="white" expand={expand} className="mb-3">
+        <Navbar key={expand} bg="white" expand={expand}>
           <Container>
             <Navbar.Brand href="#">
                 <img src="https://www.friendlineco.com/wp-content/uploads/2021/05/logo-Friendlineco.com-1.1.png" alt='image-navbar' className='navbar-image-img'>
@@ -28,28 +28,24 @@ function NavBar() {
                 </Offcanvas.Title>
               </Offcanvas.Header>
               <Offcanvas.Body>
-                <Nav className="justify-content-end flex-grow-1 pe-3">
+                <Nav className="justify-content-end flex-grow-1 pe-3 align-items-center">
                     <div>
-                        <Button className='me-3 mb-3' variant='outline-dark'>
+                        <Button className='me-3' variant='outline-dark'>
                             <div className='navbar-join-tele'>
                                 <div className='navbar-telgram-icon'>
                                     <img src='https://uploads-ssl.webflow.com/6359a461a8f2266be08081ca/6359f581e448c9afff95ada9_Telegram_logo.svg-p-500.webp' alt='navbar-telegram-icon' className='navbar-telegram-icon-img'></img>
                                 </div>
                                 <div>
-                                    <Nav.Link href="https://t.me/friendlineco">
-                                        Join The Free Telegram
-                                    </Nav.Link>
+                                  Join The Free Telegram
                                 </div>
                             </div>
                         </Button>
                     </div>
                     <div>
-                        <Button className='me-3' variant='primary'>
+                        <Button className='me-3' variant='dark'>
                             <div className='navbar-applynow'>
                                 <div>
-                                    <Nav.Link href="#action1" className='text-light'>
-                                        Apply Now
-                                    </Nav.Link>
+                                  Apply Now
                                 </div>
                             </div>
                         </Button>
