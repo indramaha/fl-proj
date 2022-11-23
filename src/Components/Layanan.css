@@ -1,0 +1,96 @@
+.layanan-section {
+    font-family: 'Poppins', sans-serif;;
+    background-color: #212529;
+    color: white;
+    padding: 5rem 0;
+    width: 100%;
+}
+
+.layanan-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.layanan-row-col-1 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.layanan-row-col-1-h31 {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.layanan-row-col-1-h32 {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 4rem;
+}
+
+.layanan-row-col-2 {
+    width: 100% !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #212529;
+}
+
+.layanan-row-col-2-row {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.layanan-row-col-2-row-col {
+    /* margin: 0 30px !important; */
+    display: flex;
+    justify-content: center;
+}
+
+.layanan-card {
+    height: 550px !important;
+    padding: 16px 0;
+    width: 18rem;
+}
+
+.layanan-card-title {
+    font-size: 2rem !important;
+    font-weight: 800 !important;
+    margin-bottom: 1.5rem !important;
+}
+
+.layanan-card-text{
+    text-align: center;
+    font-weight: 600 !important;
+    line-height: 2;
+}
+
+.layanan-list {
+    text-align: left;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 991px) {
+    .layanan-row-col-2-row-col {
+        /* margin: 0 30px !important; */
+        display: flex;
+        justify-content: center;
+        margin-bottom: 2.5rem;
+    }
+
+    .layanan-card {
+        height: 460px !important;
+        padding: 16px 0;
+        width: 25rem;
+    }
+}
+
+@media only screen and (max-width: 390px){
+    .layanan-card {
+        height: 500px !important;
+        padding: 16px 0;
+        width: 25rem;
+    }
+}
