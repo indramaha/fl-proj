@@ -1,0 +1,102 @@
+.pricing-section {
+    font-family: 'Poppins', sans-serif;
+    padding: 4rem 0;
+}
+
+.pricing-title-h3 {
+    font-size: 52px;
+    margin-bottom: 3rem;
+    font-weight: 600;
+}
+
+.pricing-card-parent {
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+.pricing-hotsale-tag {
+    background-color: #feb52b;
+    box-shadow: 0px 8px 16px rgba(150, 150, 150, 0.64);
+    border-bottom-right-radius: 20px;
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    top: 39px;
+    left: 324px;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 140px;
+    border: 1px solid black;
+}
+
+.pricing-hotsale-tag-p {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(32, 32, 32, 0.64);
+    margin: 0;
+}
+
+.pricing-hotsale-tag-fire-icon {
+    color: rgb(194, 39, 0);
+    text-shadow: 0px 8px 16px rgba(150, 150, 150, 0.64) ;
+}
+
+.pricing-card {
+    width: 50%;
+    display: flex;
+    padding: 3rem 0;
+    border: 1px solid black;
+    border-radius: 20px;
+    background: none;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.pricing-diamond-icon {
+    margin-bottom: 2rem;
+}
+
+.pricing-card-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.pricing-card-title-h3 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.exclamation {
+    color: red;
+}
+
+.pricing-row {
+    display: flex;
+    flex-direction: column;
+}
+
+.pricing-desc {
+    display: flex;
+    flex-direction: row;
+    margin-left: 195px;
+}
+
+.pricing-desc-icon {
+    margin-right: 10px;
+}
+
+.pricing-desc-icon-check {
+    color: #0d6efd;
+}
+
+.pricing-button {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
