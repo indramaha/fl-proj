@@ -30,7 +30,7 @@ function NavBar() {
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 pe-3 align-items-center">
                     <div>
-                        <Button className='me-3 navbar-button' variant='outline-dark'>
+                        <Button className='me-3 navbar-button' variant='outline-dark' href='https://t.me/friendlineco'>
                             <div className='navbar-join-tele'>
                                 <div className='navbar-telgram-icon'>
                                     <img src='https://uploads-ssl.webflow.com/6359a461a8f2266be08081ca/6359f581e448c9afff95ada9_Telegram_logo.svg-p-500.webp' alt='navbar-telegram-icon' className='navbar-telegram-icon-img'></img>
@@ -42,7 +42,7 @@ function NavBar() {
                         </Button>
                     </div>
                     <div>
-                        <Button className='me-3' variant='dark'>
+                        <Button className='me-3' variant='dark' href='https://api.whatsapp.com/send/?phone=6282147054454&text&type=phone_number&app_absent=0'>
                             <div className='navbar-applynow'>
                                 <div>
                                   Apply Now
