@@ -1,0 +1,47 @@
+.navbar-image-img {
+    width: 250px;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.navbar-join-tele {
+    display: flex;
+    align-items: center;
+}
+
+/* .navbar-telgram-icon {
+
+} */
+
+.navbar-telegram-icon-img {
+    width: 23px;
+    height: 23px;
+    margin-right: 0.5rem;
+}
+
+.navbar-applynow {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-offcan {
+    width: 50% !important;
+}
+
+@media only screen and (max-width: 430px){
+    .navbar-image-img {
+        width: 200px;
+    }
+
+    .navbar-join-tele {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
