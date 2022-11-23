@@ -34,6 +34,12 @@
     width: 50% !important;
 }
 
+@media only screen and (max-width: 991px){
+    .navbar-button {
+        margin-bottom: 20px;
+    }
+}
+
 @media only screen and (max-width: 430px){
     .navbar-image-img {
         width: 200px;

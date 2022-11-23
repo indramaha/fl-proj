@@ -30,7 +30,7 @@ function NavBar() {
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 pe-3 align-items-center">
                     <div>
-                        <Button className='me-3' variant='outline-dark'>
+                        <Button className='me-3 navbar-button' variant='outline-dark'>
                             <div className='navbar-join-tele'>
                                 <div className='navbar-telgram-icon'>
                                     <img src='https://uploads-ssl.webflow.com/6359a461a8f2266be08081ca/6359f581e448c9afff95ada9_Telegram_logo.svg-p-500.webp' alt='navbar-telegram-icon' className='navbar-telegram-icon-img'></img>
