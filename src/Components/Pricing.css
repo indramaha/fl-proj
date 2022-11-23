@@ -17,7 +17,7 @@
 
 .pricing-hotsale-tag {
     background-color: #feb52b;
-    box-shadow: 0px 8px 16px rgba(150, 150, 150, 0.64);
+    box-shadow: 2px 2px 5px rgba(150, 150, 150, 0.64);
     border-bottom-right-radius: 20px;
     display: flex;
     position: absolute;
@@ -27,7 +27,7 @@
     align-items: center;
     justify-content: space-evenly;
     width: 140px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .pricing-hotsale-tag-p {
@@ -47,13 +47,14 @@
     width: 50%;
     display: flex;
     padding: 3rem 0;
-    border: 1px solid black;
+    /* border: 1px solid black;     */
     border-radius: 20px;
     background: none;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
+    box-shadow: 0px 8px 16px rgba(150, 150, 150, 0.64);
 }
 
 .pricing-diamond-icon {
