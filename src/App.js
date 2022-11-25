@@ -4,6 +4,7 @@ import Hero from './Components/Hero';
 import Layanan from './Components/Layanan';
 import Pricing from './Components/Pricing';
 import ContactForm from './Components/Form';
+import FAQ from './Components/FAQ';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Layanan />
       <Pricing />
       <ContactForm />
+      <FAQ />
     </div>
   );
 }

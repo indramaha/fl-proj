@@ -7,7 +7,7 @@ import './NavBar.css'
 
 function NavBar() {
   return (
-    <>
+    <div className='navbar-section'>
       {['lg'].map((expand) => (
         <Navbar key={expand} bg="white" expand={expand} sticky="top">
           <Container>
@@ -45,7 +45,7 @@ function NavBar() {
                         <Button href='#form' className='me-3' variant='dark'>
                             <div className='navbar-applynow'>
                                 <div>
-                                  Apply Now
+                                  Join Friendline Project
                                 </div>
                             </div>
                         </Button>
@@ -56,7 +56,7 @@ function NavBar() {
           </Container>
         </Navbar>
       ))}
-    </>
+    </div>
   );
 }
 

@@ -1,6 +1,6 @@
 .hero-section {
     padding: 5rem 0;
-    font-family: 'Poppins', sans-serif;;
+    font-family: 'Poppins', sans-serif;
 }
 
 .hero-row {
@@ -12,12 +12,12 @@
     width: 500px;
     height: 400px;
     object-fit: cover;
-    border-radius: 20px;
+    /* border-radius: 20px;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
-    -o-border-radius: 20px;
-    box-shadow: 8px 8px 12px #cac7c7;
+    -o-border-radius: 20px; */
+    /* box-shadow: 8px 8px 12px #cac7c7; */
 }
 
 .hero-col-1 {
@@ -114,12 +114,12 @@
         width: 400px;
         height: 400px;
         object-fit: cover;
-        border-radius: 20px;
+        /* border-radius: 20px;
         -webkit-border-radius: 20px;
         -moz-border-radius: 20px;
         -ms-border-radius: 20px;
         -o-border-radius: 20px;
-        box-shadow: 8px 8px 12px #cac7c7;
+        box-shadow: 8px 8px 12px #cac7c7; */
     }
 }
 
@@ -128,11 +128,11 @@
         width: 325px;
         height: 325px;
         object-fit: cover;
-        border-radius: 20px;
+        /* border-radius: 20px;
         -webkit-border-radius: 20px;
         -moz-border-radius: 20px;
         -ms-border-radius: 20px;
         -o-border-radius: 20px;
-        box-shadow: 8px 8px 12px #cac7c7;
+        box-shadow: 8px 8px 12px #cac7c7; */
     }
 }

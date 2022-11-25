@@ -1,4 +1,5 @@
 import {Container, Row, Col, Button} from 'react-bootstrap';
+import jadiSatu from '../assets/jadi 1.png'
 import './Hero.css'
 
 
@@ -13,7 +14,7 @@ function Hero() {
                             <h3 className='hero-col-1-row-col-1-h3'><b>Kami Wujudkan Apa yang Jadi Masalah di Dalam Trading Anda!</b></h3>
                         </Col>
                         <Col className='hero-col-1-row-co-2'>
-                            <p className='hero-col-1-row-co-2-p'>Komunitas trading terbesar di Indonesia, yang menyediakan jasa konsultasi trading forex dan akan membimbing Anda secara konkrit untuk bisa trading dengan profit konsisten.</p>
+                            <p className='hero-col-1-row-co-2-p'>Komunitas trading fun & friendly di Indonesia, yang menyediakan jasa konsultasi trading forex dan akan membimbing Anda untuk bisa trading dengan profit konsisten.</p>
                         </Col>
                         <Col className='hero-col-1-row-co-3'>
                             <Button href='#pricing' variant='dark' className='hero-button'>DAFTAR SEKARANG</Button>
@@ -22,7 +23,7 @@ function Hero() {
                 </Col>
                 <Col lg={6} className='hero-col-2'>
                     <div>
-                        <img src='https://images.unsplash.com/photo-1579226905180-636b76d96082?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80' alt='hero-image' className='hero-image-img'>
+                        <img src={jadiSatu} alt='hero-image' className='hero-image-img'>
                         </img>
                     </div>
                 </Col>

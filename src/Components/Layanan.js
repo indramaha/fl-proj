@@ -21,7 +21,7 @@ function Layanan() {
                     <Col lg='9' className='layanan-row-col-2'>
                         <Row className='layanan-row-col-2-row'>
                             <Col className='layanan-row-col-2-row-col'>
-                                <Card className='layanan-card'>
+                                <div className='layanan-card'>
                                     <Card.Body>
                                         <Card.Title className='layanan-card-title'>LEARN</Card.Title>
                                         <hr />
@@ -35,10 +35,10 @@ function Layanan() {
                                             </ul>
                                         </Card.Text>
                                     </Card.Body>
-                                </Card>
+                                </div>
                             </Col>
                             <Col className='layanan-row-col-2-row-col'>
-                                <Card className='layanan-card'>
+                                <div className='layanan-card'>
                                     <Card.Body>
                                         <Card.Title className='layanan-card-title'>KOMUNITAS</Card.Title>
                                         <Card.Subtitle className="mb-4 text-muted text-center">SEBERAPA PENTING KOMUNITAS MENURUT KALIAN?</Card.Subtitle>
@@ -47,10 +47,10 @@ function Layanan() {
                                             PENGALAMAN DI DALAM TRADING INDUSTRI SANGAT AMAT PENTING DAN ITU SANGAT MAHAL. DI DALAM KOMUNITAS YANG BAGUS KITA BISA SHARING PENGALAMAN YANG TIDAK ADA HARGANYA, BUKAN CUMA SHARING KITA BISA BELAJAR JUGA DI DALAM KOMUNITAS YANG SOLID YA FRIENDS!
                                         </Card.Text>
                                     </Card.Body>
-                                </Card>
+                                </div>
                             </Col>
                             <Col className='layanan-row-col-2-row-col'>
-                                <Card className='layanan-card'>
+                                <div className='layanan-card'>
                                     <Card.Body>
                                         <Card.Title className='layanan-card-title'>SIGNAL</Card.Title>
                                         <hr />
@@ -63,7 +63,7 @@ function Layanan() {
                                             </ul>
                                         </Card.Text>
                                     </Card.Body>
-                                </Card>
+                                </div>
                             </Col>
                         </Row>
                     </Col>
