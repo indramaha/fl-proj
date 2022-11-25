@@ -22,3 +22,23 @@
     margin-bottom: 1.5rem;
     box-shadow: 2px 2px 2px 3px rgb(241, 241, 241);
 }
+
+.faq-accord-header {
+    font-weight: 600 !important;
+}
+
+@media only screen and (max-width:991px){
+    .faq-col-1-h3 {
+        font-size: 2rem;
+        font-weight: 600 ;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+    
+    .faq-col-1-p {
+        font-size: 1rem;
+        line-height: 30px;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+}

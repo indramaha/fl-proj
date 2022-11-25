@@ -17,31 +17,31 @@ function FAQ() {
                     <div>
                         <Accordion>
                             <Accordion.Item eventKey="0" className='faq-accord'>
-                                <Accordion.Header>APA ITU FRIENDLINECO PROJECT ?</Accordion.Header>
+                                <Accordion.Header><h6 className='faq-accord-header'>APA ITU FRIENDLINECO PROJECT ?</h6></Accordion.Header>
                                 <Accordion.Body>
                                 Friendlineco Project merupakan sebuah tempat belajar untuk trader pemula sampai expert , dan dilengkapi oleh komunitas yang sangat friendly & fun didalamnya .
                                 </Accordion.Body>
                             </Accordion.Item>
                             <Accordion.Item eventKey="1" className='faq-accord'>
-                                <Accordion.Header>APA PLATFORM YANG DIGUNAKAN FRIENDLINECO PROJECT ?</Accordion.Header>
+                                <Accordion.Header><h6 className='faq-accord-header'>APA PLATFORM YANG DIGUNAKAN FRIENDLINECO PROJECT ?</h6></Accordion.Header>
                                 <Accordion.Body>
                                 Agar lebih terstruktur kita memilih platform "DISCORD" untuk menemani kalian dalam belajar & trading.
                                 </Accordion.Body>
                             </Accordion.Item>
                             <Accordion.Item eventKey="2" className='faq-accord'>
-                                <Accordion.Header>APA YANG MEMBUAT FRIENDLINECO PROJECT BERBEDA DENGAN YANG LAIN ?</Accordion.Header>
+                                <Accordion.Header><h6 className='faq-accord-header'>APA YANG MEMBUAT FRIENDLINECO PROJECT BERBEDA DENGAN YANG LAIN ?</h6></Accordion.Header>
                                 <Accordion.Body>
                                 ONCE TIME PAYMENT Temen2 tidak perlu membayar member bulanan , karena kita menggunakan sistem sekali bayar untuk selamanya.
                                 </Accordion.Body>
                             </Accordion.Item>
                             <Accordion.Item eventKey="3" className='faq-accord'>
-                                <Accordion.Header>BAGAIMANA CARA JOINNYA ?</Accordion.Header>
+                                <Accordion.Header><h6 className='faq-accord-header'>BAGAIMANA CARA JOINNYA ?</h6></Accordion.Header>
                                 <Accordion.Body>
                                 Temen2 bisa click "APPLY NOW" atau "DAFTAR SEKARANG" dan ikuti langkah2 yang tersedia.
                                 </Accordion.Body>
                             </Accordion.Item>
                             <Accordion.Item eventKey="4" className='faq-accord'>
-                                <Accordion.Header>MATERI APA YANG DI BAHAS DI DALAM FRIENDLINECO PROJECT ?</Accordion.Header>
+                                <Accordion.Header><h6 className='faq-accord-header'>MATERI APA YANG DI BAHAS DI DALAM FRIENDLINECO PROJECT ?</h6></Accordion.Header>
                                 <Accordion.Body>
                                 SMART MONEY CONCEPT & PRICE ACTION, MONEY MANAGEMENT, FUNDAMENTAL.
                                 </Accordion.Body>
