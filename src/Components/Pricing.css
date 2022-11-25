@@ -83,6 +83,7 @@
     color: red;
     width: 30px;
     height: 30px;
+    display: none;
 }
 
 .pricing-card-text-price-dash {
@@ -250,7 +251,7 @@
     }
     
     .pricing-card-title-h3 {
-        font-size: 1.5rem;
+        font-size: 2rem;
         font-weight: 600;
         margin: 0;
     }
