@@ -3,6 +3,7 @@ import NavBar from './Components/NavBar';
 import Hero from './Components/Hero';
 import Layanan from './Components/Layanan';
 import Pricing from './Components/Pricing';
+import ContactForm from './Components/Form';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Hero />
       <Layanan />
       <Pricing />
+      <ContactForm />
     </div>
   );
 }

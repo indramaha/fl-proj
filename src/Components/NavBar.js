@@ -9,7 +9,7 @@ function NavBar() {
   return (
     <>
       {['lg'].map((expand) => (
-        <Navbar key={expand} bg="white" expand={expand}>
+        <Navbar key={expand} bg="white" expand={expand} sticky="top">
           <Container>
             <Navbar.Brand href="#">
                 <img src="https://www.friendlineco.com/wp-content/uploads/2021/05/logo-Friendlineco.com-1.1.png" alt='image-navbar' className='navbar-image-img'>
