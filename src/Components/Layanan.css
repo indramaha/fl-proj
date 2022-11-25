@@ -15,6 +15,7 @@
 .layanan-row-col-1 {
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
 }
 
 .layanan-row-col-1-h31 {
@@ -61,6 +62,7 @@
     font-size: 2rem !important;
     font-weight: 800 !important;
     margin-bottom: 1.5rem !important;
+    text-align: center;
 }
 
 .layanan-card-text{
@@ -73,6 +75,7 @@
     text-align: left;
     margin-bottom: 1rem;
     font-weight: 600;
+    list-style: circle;
 }
 
 @media only screen and (max-width: 991px) {
@@ -92,7 +95,7 @@
 
 @media only screen and (max-width: 390px){
     .layanan-card {
-        height: 500px !important;
+        height: 540px !important;
         padding: 16px 0;
         width: 25rem;
     }

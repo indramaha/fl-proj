@@ -10,7 +10,7 @@ function Layanan() {
     <div className='layanan-section'>
             <Container>
                 <Row className='layanan-row'>
-                    <Col lg='4' className='layanan-row-col-1 layanan-title'>
+                    <Col lg='4' className='layanan-row-col-1'>
                             <div>
                                 <h3 className='layanan-row-col-1-h31'>Layanan Kami</h3>
                             </div>
@@ -41,7 +41,7 @@ function Layanan() {
                                 <Card className='layanan-card'>
                                     <Card.Body>
                                         <Card.Title className='layanan-card-title'>KOMUNITAS</Card.Title>
-                                        <Card.Subtitle className="mb-4 text-muted ">SEBERAPA PENTING KOMUNITAS MENURUT KALIAN?</Card.Subtitle>
+                                        <Card.Subtitle className="mb-4 text-muted text-center">SEBERAPA PENTING KOMUNITAS MENURUT KALIAN?</Card.Subtitle>
                                         <hr />
                                         <Card.Text className='layanan-card-text'>
                                             PENGALAMAN DI DALAM TRADING INDUSTRI SANGAT AMAT PENTING DAN ITU SANGAT MAHAL. DI DALAM KOMUNITAS YANG BAGUS KITA BISA SHARING PENGALAMAN YANG TIDAK ADA HARGANYA, BUKAN CUMA SHARING KITA BISA BELAJAR JUGA DI DALAM KOMUNITAS YANG SOLID YA FRIENDS!
