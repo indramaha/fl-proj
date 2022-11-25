@@ -6,7 +6,7 @@ import { Button } from 'react-bootstrap'
 
 const Pricing = () => {
     return(
-        <div className='pricing-section'>
+        <div className='pricing-section' id='pricing'>
             <div className='pricing-title'>
                 <h3 className='pricing-title-h3'>Pricing</h3>
             </div>
@@ -67,7 +67,7 @@ const Pricing = () => {
                         </div>
                     </div>
                     <div className='pricing-button-bg'>
-                        <Button className='pricing-button'>IDR.1.899K</Button>
+                        <Button href='#form' className='pricing-button'>IDR.1.899K</Button>
                     </div>
                 </div>
             </div>

@@ -22,7 +22,7 @@ function ContactForm() {
       );
   }
   return (
-    <div className='form-section'>
+    <div className='form-section' id='form'>
         <Container>
             <div className='form-form-bg'>
                 <div className='form-title'>

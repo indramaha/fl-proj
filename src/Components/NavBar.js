@@ -42,7 +42,7 @@ function NavBar() {
                         </Button>
                     </div>
                     <div>
-                        <Button className='me-3' variant='dark' href='https://api.whatsapp.com/send/?phone=6282147054454&text&type=phone_number&app_absent=0'>
+                        <Button href='#form' className='me-3' variant='dark'>
                             <div className='navbar-applynow'>
                                 <div>
                                   Apply Now

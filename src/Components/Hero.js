@@ -16,7 +16,7 @@ function Hero() {
                             <p className='hero-col-1-row-co-2-p'>Komunitas trading terbesar di Indonesia, yang menyediakan jasa konsultasi trading forex dan akan membimbing Anda secara konkrit untuk bisa trading dengan profit konsisten.</p>
                         </Col>
                         <Col className='hero-col-1-row-co-3'>
-                            <Button href='https://api.whatsapp.com/send/?phone=6282147054454&text&type=phone_number&app_absent=0' variant='dark' className='hero-button'>DAFTAR SEKARANG</Button>
+                            <Button href='#pricing' variant='dark' className='hero-button'>DAFTAR SEKARANG</Button>
                         </Col>
                     </Row>
                 </Col>
