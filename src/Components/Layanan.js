@@ -1,7 +1,10 @@
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Card from 'react-bootstrap/Card'
+import Card from 'react-bootstrap/Card';
+import Buku from '../assets/Buku.png';
+import Kartu from '../assets/Card.png';
+import Laptop from '../assets/Laptop.png'
 import "./Layanan.css"
 
 
@@ -23,7 +26,7 @@ function Layanan() {
                             <Col className='layanan-row-col-2-row-col'>
                                 <div className='layanan-card'>
                                     <Card.Body>
-                                        <Card.Title className='layanan-card-title'>LEARN</Card.Title>
+                                        <Card.Title className='layanan-card-title'><img src={Buku} alt='buku-card' className='layanan-title-gambar'/></Card.Title>
                                         <hr />
                                         <Card.Text>
                                             <ul>
@@ -40,8 +43,7 @@ function Layanan() {
                             <Col className='layanan-row-col-2-row-col'>
                                 <div className='layanan-card'>
                                     <Card.Body>
-                                        <Card.Title className='layanan-card-title'>KOMUNITAS</Card.Title>
-                                        <Card.Subtitle className="mb-4 text-muted text-center">SEBERAPA PENTING KOMUNITAS MENURUT KALIAN?</Card.Subtitle>
+                                        <Card.Title className='layanan-card-title'><img src={Kartu} alt='kartu-card' className='layanan-title-gambar' /></Card.Title>
                                         <hr />
                                         <Card.Text className='layanan-card-text'>
                                             PENGALAMAN DI DALAM TRADING INDUSTRI SANGAT AMAT PENTING DAN ITU SANGAT MAHAL. DI DALAM KOMUNITAS YANG BAGUS KITA BISA SHARING PENGALAMAN YANG TIDAK ADA HARGANYA, BUKAN CUMA SHARING KITA BISA BELAJAR JUGA DI DALAM KOMUNITAS YANG SOLID YA FRIENDS!
@@ -52,7 +54,7 @@ function Layanan() {
                             <Col className='layanan-row-col-2-row-col'>
                                 <div className='layanan-card'>
                                     <Card.Body>
-                                        <Card.Title className='layanan-card-title'>SIGNAL</Card.Title>
+                                        <Card.Title className='layanan-card-title'><img src={Laptop} alt='laptop-card' className='layanan-title-gambar' /></Card.Title>
                                         <hr />
                                         <Card.Text>
                                             <ul>

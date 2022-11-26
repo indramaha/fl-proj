@@ -65,6 +65,10 @@
     margin-bottom: 3rem;
 }
 
+.pricing-tigagambar {
+    width: 100%;
+}
+
 .pricing-card-title {
     display: flex;
     align-items: center;

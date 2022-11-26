@@ -36,7 +36,7 @@ function ContactForm() {
                     <Form.Group className="mb-3" controlId="formBasicEmail">
                         <Form.Label htmlFor="email">Email address</Form.Label>
                         <Form.Control id="email" type="email" name="email" placeholder="Enter email" required/>
-                        <Form.Text className="text-muted text-muted-form">
+                        <Form.Text className="text-muted text-muted-form form-muted-text">
                         We'll never share your email with anyone else.
                         </Form.Text>
                     </Form.Group>

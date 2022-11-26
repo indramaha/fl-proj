@@ -1,0 +1,113 @@
+.footer-section {
+    font-family: "Poppins",sans-serif;
+    padding: 5rem 0;
+}
+
+.footer-charting {
+    margin-bottom: 1.5rem;
+}
+
+.footer-charting-h6 {
+    font-weight: 600;
+}
+
+.footer-charting {
+    text-decoration: none;
+    color: black;
+    font-size: 0.85rem;
+}
+
+.footer-broker {
+    margin-bottom: 1.5rem;
+}
+
+.footer-broker-h6 {
+    font-weight: 600;
+}
+
+.footer-broker-xm {
+    text-decoration: none;
+    color: black;
+    font-size: 0.85rem;
+}
+
+.footer-broker-exness {
+    text-decoration: none;
+    color: black;
+    font-size: 0.85rem;
+}
+
+.footer-socmed {
+    margin-bottom: 1.5rem;
+}
+
+.footer-socmed-h6 {
+    font-weight: 600;
+}
+
+.footer-socmed-icons {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-icons-bg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1rem;
+    background-color: black ;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.footer-icons-icon {
+    color: white;
+}
+
+.footer-copyright {
+    margin-bottom: 1.5rem;
+}
+
+.footer-copyright-h6 {
+    font-weight: 600;
+}
+
+.footer-logo-image {
+    background-color: black;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    padding: 0.5rem;
+    width: fit-content;
+}
+
+.footer-logo-image-img {
+    width: fit-content;
+    height: 30px;
+}
+
+@media only screen and (max-width:991px){
+    .footer-section {
+        font-family: "Poppins",sans-serif;
+        padding-top: 0;
+        padding-bottom: 5rem;
+    }
+
+    .footer-col-1 {
+        margin-bottom: 2rem;
+    }
+    .footer-col-2 {
+        margin-bottom: 2rem;
+    }
+
+    .footer-col-3 {
+        margin-bottom: 2rem;
+    }
+}

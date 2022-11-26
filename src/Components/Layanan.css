@@ -54,7 +54,7 @@
 }
 
 .layanan-card {
-    height: 550px !important;
+    height: 660px !important;
     padding: 2rem 1rem;
     width: 18rem;
     border-radius: 20px;
@@ -71,6 +71,10 @@
     font-weight: 800 !important;
     margin-bottom: 1.5rem !important;
     text-align: center;
+}
+
+.layanan-title-gambar {
+    width: 150px;
 }
 
 .layanan-card-text{

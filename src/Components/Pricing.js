@@ -3,6 +3,7 @@ import {ImFire} from 'react-icons/im'
 import {SlDiamond} from 'react-icons/sl'
 import {BsExclamationLg, BsCheck} from 'react-icons/bs'
 import { Button } from 'react-bootstrap'
+import TigaGambar from '../assets/mOCKUP TOPED 700 X 700.png'
 
 const Pricing = () => {
     return(
@@ -16,7 +17,8 @@ const Pricing = () => {
                 </div>
                 <div className='pricing-card'>
                     <div className='pricing-card-diamond-icon'>
-                        <SlDiamond size={34}/>
+                        {/* <SlDiamond size={34}/> */}
+                        <img src={TigaGambar} alt='tiga-gambar-pricing' className='pricing-tigagambar' />
                     </div>
                     <div className='pricing-card-title'>
                         <h3 className='pricing-card-title-h3'>EARLY BIRD</h3><BsExclamationLg className='pricing-card-title-exclamation'/><BsExclamationLg className='pricing-card-title-exclamation'/><BsExclamationLg className='pricing-card-title-exclamation'/>

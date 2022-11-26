@@ -29,6 +29,10 @@
     font-weight: 700;
 }
 
+.form-muted-text {
+    font-size: 0.7rem !important;
+}
+
 .form-success {
     padding: 3rem 0;
 }

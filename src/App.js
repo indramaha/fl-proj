@@ -5,6 +5,7 @@ import Layanan from './Components/Layanan';
 import Pricing from './Components/Pricing';
 import ContactForm from './Components/Form';
 import FAQ from './Components/FAQ';
+import Footer from './Components/Footer';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Pricing />
       <ContactForm />
       <FAQ />
+      <Footer />
     </div>
   );
 }

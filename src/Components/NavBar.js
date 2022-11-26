@@ -3,16 +3,18 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Offcanvas from 'react-bootstrap/Offcanvas';
+import FlLogo from '../assets/friendline-logo.png'
+import TeleLogo from '../assets/6359f581e448c9afff95ada9_Telegram_logo.svg-p-500.webp'
 import './NavBar.css'
 
 function NavBar() {
   return (
     <div className='navbar-section'>
       {['lg'].map((expand) => (
-        <Navbar key={expand} bg="white" expand={expand} sticky="top">
+        <Navbar key={expand} bg="white" expand={expand} sticky="top" id='FL'>
           <Container>
-            <Navbar.Brand href="#">
-                <img src="https://www.friendlineco.com/wp-content/uploads/2021/05/logo-Friendlineco.com-1.1.png" alt='image-navbar' className='navbar-image-img'>
+            <Navbar.Brand href="/">
+                <img src={FlLogo} alt='navbar' className='navbar-image-img'>
                 </img>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
@@ -33,7 +35,7 @@ function NavBar() {
                         <Button className='me-3 navbar-button' variant='outline-dark' href='https://t.me/friendlineco'>
                             <div className='navbar-join-tele'>
                                 <div className='navbar-telgram-icon'>
-                                    <img src='https://uploads-ssl.webflow.com/6359a461a8f2266be08081ca/6359f581e448c9afff95ada9_Telegram_logo.svg-p-500.webp' alt='navbar-telegram-icon' className='navbar-telegram-icon-img'></img>
+                                    <img src={TeleLogo} alt='navbar-telegram-icon' className='navbar-telegram-icon-img'></img>
                                 </div>
                                 <div>
                                   Join The Free Telegram
