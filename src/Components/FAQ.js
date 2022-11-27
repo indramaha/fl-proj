@@ -1,5 +1,6 @@
 import { Col, Container, Row } from 'react-bootstrap';
 import Accordion from 'react-bootstrap/Accordion';
+import Banner from '../assets/bANNER YOUTUBE-01.png'
 import './FAQ.css'
 
 function FAQ() {
@@ -7,7 +8,7 @@ function FAQ() {
     <div className='faq-section'>
         <Container>
             <Row className='faq-row'>
-                <Col lg={5}>
+                <Col lg={5} className='faq-col-1'>
                     <div>
                         <h3 className='faq-col-1-h3'>Frequently Asked Question</h3>
                         <p className='faq-col-1-p'>Yang Biasanya Ditanyakan Tentang Friendline Project.</p>
@@ -51,6 +52,7 @@ function FAQ() {
                 </Col>
             </Row>
         </Container>
+        {/* <img className='faq-banner' src={Banner} /> */}
     </div>
   );
 }

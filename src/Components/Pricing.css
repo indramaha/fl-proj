@@ -66,7 +66,10 @@
 }
 
 .pricing-tigagambar {
-    width: 100%;
+    width: 80%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .pricing-card-title {
@@ -74,13 +77,22 @@
     align-items: center;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 0.5rem;
+    margin-bottom: 3.5rem;
 }
 
 .pricing-card-title-h3 {
-    font-size: 2.5rem;
+    display: flex;
+    font-size: 2rem;
     font-weight: 600;
     margin: 0;
+}
+
+.pricing-card-title-h3-1899k {
+    margin-left: 10px !important;
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 0;
+    color: red;
 }
 
 .pricing-card-title-exclamation {
@@ -93,7 +105,13 @@
 .pricing-card-text-price-dash {
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 3rem;
+    margin-bottom: 0.2rem;
+}
+
+.pricing-card-text-price-dash-p {
+    font-weight: 500;
+    color: #49535c;
+    font-size: 14px;
 }
 
 .pricing-card-text-price-dash-s {
@@ -115,12 +133,27 @@
     color: #49535c;
 }
 
+.pricing-card-text-desc-p-bg {
+    margin-left: 10px;
+}
+
 .pricing-card-text-desc-bg {
-    padding-right: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    /* padding-right: 0.5rem; */
+    background-color: #615cff;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
 }
 
 .pricing-card-text-desc-icon {
-    color: #615cff;
+    color: white;
 }
 
 .pricing-button-bg {
@@ -231,6 +264,11 @@
 }
 
 @media only screen and (max-width: 430px) {
+    .pricing-card-parent {
+        position: relative;
+        padding: 0 1rem;
+    }
+
     .pricing-card {
         padding: 3rem 2rem;
         border-radius: 20px;
@@ -239,11 +277,17 @@
         flex-direction: column;
         margin-left: auto;
         margin-right: auto;
-        width: 350px;
+        width: 100%;
         -webkit-border-radius: 20px;
         -moz-border-radius: 20px;
         -ms-border-radius: 20px;
         -o-border-radius: 20px;
+    }
+
+    .pricing-card-diamond-icon {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 1rem;
     }
     
     .pricing-card-title {
@@ -251,13 +295,21 @@
         align-items: center;
         margin-left: auto;
         margin-right: auto;
-        margin-bottom: 0.5rem;
+        margin-bottom: 3rem;
     }
     
     .pricing-card-title-h3 {
-        font-size: 2rem;
+        font-size: 1.5rem;
         font-weight: 600;
         margin: 0;
+    }
+    
+    .pricing-card-title-h3-1899k {
+        margin-left: 10px !important;
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin: 0;
+        color: red;
     }
 
     .pricing-card-title-exclamation {
@@ -269,7 +321,7 @@
     .pricing-card-text-price-dash {
         margin-left: auto;
         margin-right: auto;
-        margin-bottom: 2rem;
+        margin-bottom: 0.2rem;
     }
     
     .pricing-card-text-price-dash-s {
@@ -283,5 +335,20 @@
         margin-bottom: 1rem;
         align-items: center;
         margin-left: 25px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .pricing-card-title-h3 {
+        font-size: 1.3rem;
+        font-weight: 600;
+        margin: 0;
+    }
+    
+    .pricing-card-title-h3-1899k {
+        font-size: 1.3rem;
+        font-weight: 600;
+        margin: 0;
+        color: red;
     }
 }

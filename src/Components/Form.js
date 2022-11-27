@@ -4,6 +4,7 @@ import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 import { Button, Container, Form } from 'react-bootstrap';
 import {IoLogoWhatsapp} from 'react-icons/io'
+import LogoBCA from '../assets/logo-bca-logo-only-light.svg'
 import './Form.css'
 
 
@@ -12,8 +13,15 @@ function ContactForm() {
   if (state.succeeded) {
       return(
         <div className='form-success'>
-            <p className='form-success-p'>Thanks for joining!</p>
-            <p className='form-success-p'>Silahkan Screen Shoot halaman ini untuk bukti</p>
+            <p className='form-success-p'>Selesaikan Pembayaran!</p>
+            <div className='form-norek'>
+                <div className='form-logo-bca-bg'>
+                    <img src={LogoBCA} />
+                </div>
+                <p className='form-success-p'>Nomor Rekening BCA:</p>
+                <p className='form-success-p'>7725238045</p>
+                <p className='form-success-p'>I Kadek Yudi Puspayoga</p>
+            </div>
             <p className='form-success-p'>Kontak Admin Untuk Melakukan Konfirmasi</p>
             <div className='form-success-button-bg'>
                 <Button className='form-success-button' href='https://api.whatsapp.com/send/?phone=6282147054454&text&type=phone_number&app_absent=0'><IoLogoWhatsapp /> Admin</Button>
@@ -46,7 +54,11 @@ function ContactForm() {
                         errors={state.errors}
                     />
                     <Form.Group className="mb-3">
-                        <Form.Label htmlFor="number">Phone Number (WA)</Form.Label>
+                        <Form.Label htmlFor="number">City</Form.Label>
+                        <Form.Control id="text" type='text' name="kota-asal" placeholder='Jakarta'  required/>
+                    </Form.Group>
+                    <Form.Group className="mb-3">
+                        <Form.Label htmlFor="number">Phone Number (Whatsapp)</Form.Label>
                         <Form.Control id="number" type='text' name="phone-number" placeholder='+62'  required/>
                     </Form.Group>
                     <Form.Group className="mb-5">

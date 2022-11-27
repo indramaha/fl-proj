@@ -30,7 +30,7 @@ function NavBar() {
                 </Offcanvas.Title>
               </Offcanvas.Header>
               <Offcanvas.Body>
-                <Nav className="justify-content-end flex-grow-1 pe-3 align-items-center">
+                <Nav className="justify-content-end flex-grow-1 pe-3 align-items-center navbar-item-isi">
                     <div>
                         <Button className='me-3 navbar-button' variant='outline-dark' href='https://t.me/friendlineco'>
                             <div className='navbar-join-tele'>
@@ -43,7 +43,7 @@ function NavBar() {
                             </div>
                         </Button>
                     </div>
-                    <div>
+                    <div className='navbar-button-joinfl'>
                         <Button href='#form' className='me-3' variant='dark'>
                             <div className='navbar-applynow'>
                                 <div>

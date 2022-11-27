@@ -7,6 +7,11 @@
     justify-content: space-between;
 }
 
+.faq-col-1 {
+    display: flex;
+    align-items: center;
+}
+
 .faq-col-1-h3 {
     font-size: 2rem;
     font-weight: 600;
@@ -26,6 +31,13 @@
 .faq-accord-header {
     font-weight: 600 !important;
 }
+
+/* .faq-banner {
+    width: 1960px;
+    height: 250px;
+    margin-top: 2rem;
+    object-fit: cover;
+} */
 
 @media only screen and (max-width:991px){
     .faq-col-1-h3 {

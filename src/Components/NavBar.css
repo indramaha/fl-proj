@@ -42,9 +42,22 @@
     .navbar-button {
         margin-bottom: 20px;
     }
+    .navbar-button-joinfl {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 430px){
+    .navbar-item-isi {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .navbar-button {
+        margin: 0 !important;
+    }
+
     .navbar-image-img {
         width: 200px;
     }

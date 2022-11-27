@@ -15,7 +15,7 @@ function Layanan() {
                 <Row className='layanan-row'>
                     <Col lg='4' className='layanan-row-col-1'>
                             <div>
-                                <h3 className='layanan-row-col-1-h31'>Layanan Kami</h3>
+                                <h3 className='layanan-row-col-1-h31'>OUR SERVICES</h3>
                             </div>
                             <div>
                                 <h3 className='layanan-row-col-1-h32'>3 IN 1 MENTORSHIP</h3>
@@ -26,7 +26,8 @@ function Layanan() {
                             <Col className='layanan-row-col-2-row-col'>
                                 <div className='layanan-card'>
                                     <Card.Body>
-                                        <Card.Title className='layanan-card-title'><img src={Buku} alt='buku-card' className='layanan-title-gambar'/></Card.Title>
+                                        <Card.Title className='layanan-card-title'>LEARN</Card.Title>
+                                        <img src={Buku} alt='buku-card' className='layanan-card-title-gambar'/>
                                         <hr />
                                         <Card.Text>
                                             <ul>
@@ -43,7 +44,8 @@ function Layanan() {
                             <Col className='layanan-row-col-2-row-col'>
                                 <div className='layanan-card'>
                                     <Card.Body>
-                                        <Card.Title className='layanan-card-title'><img src={Kartu} alt='kartu-card' className='layanan-title-gambar' /></Card.Title>
+                                        <Card.Title className='layanan-card-title'>COMMUNITY</Card.Title>
+                                        <img src={Laptop} alt='laptop-card' className='layanan-card-title-gambar' />
                                         <hr />
                                         <Card.Text className='layanan-card-text'>
                                             PENGALAMAN DI DALAM TRADING INDUSTRI SANGAT AMAT PENTING DAN ITU SANGAT MAHAL. DI DALAM KOMUNITAS YANG BAGUS KITA BISA SHARING PENGALAMAN YANG TIDAK ADA HARGANYA, BUKAN CUMA SHARING KITA BISA BELAJAR JUGA DI DALAM KOMUNITAS YANG SOLID YA FRIENDS!
@@ -54,7 +56,8 @@ function Layanan() {
                             <Col className='layanan-row-col-2-row-col'>
                                 <div className='layanan-card'>
                                     <Card.Body>
-                                        <Card.Title className='layanan-card-title'><img src={Laptop} alt='laptop-card' className='layanan-title-gambar' /></Card.Title>
+                                        <Card.Title className='layanan-card-title'>LIFETIME ACCES</Card.Title>
+                                        <img src={Kartu} alt='kartu-card' className='layanan-card-title-gambar' />
                                         <hr />
                                         <Card.Text>
                                             <ul>

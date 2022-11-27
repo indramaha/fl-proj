@@ -1,11 +1,18 @@
 .footer-section {
     font-family: "Poppins",sans-serif;
-    padding: 5rem 0;
+    padding: 3rem 0;
+    bottom: 0 !important;
+    background-color: #F3F4F5;
 }
 
-.footer-charting {
-    margin-bottom: 1.5rem;
+.footer-row {
+    justify-content: space-between;
+    display: flex;
 }
+
+/* .footer-charting {
+    margin-bottom: 1.5rem;
+} */
 
 .footer-charting-h6 {
     font-weight: 600;
@@ -17,21 +24,97 @@
     font-size: 0.85rem;
 }
 
-.footer-broker {
-    margin-bottom: 1.5rem;
+.footer-col-1 {
+    display: flex;
+    justify-content: center;
 }
 
-.footer-broker-h6 {
+/* .footer-col-2 {
+    display: flex;
+    flex-direction: column !important;
+} */
+
+.footer-col-3 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-links {
+    margin-bottom: 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-links-h6 {
     font-weight: 600;
 }
 
-.footer-broker-xm {
+.footer-links-col-baru {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-links-xm {
     text-decoration: none;
     color: black;
     font-size: 0.85rem;
 }
 
-.footer-broker-exness {
+.footer-links-xm-bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    background-color: black;
+    width: 35px;
+    height: 35px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.footer-links-exness-bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    background-color: black;
+    width: 35px;
+    height: 35px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.footer-charting-bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    background-color: black;
+    width: 35px;
+    height: 35px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.footer-links-xm-icon {
+    width: 30px;
+}
+
+.footer-links-exness-icon {
+    width: 30px;
+}
+
+.footer-charting-icon {
+    width: 30px;
+}
+
+.footer-links-exness {
     text-decoration: none;
     color: black;
     font-size: 0.85rem;
@@ -39,6 +122,8 @@
 
 .footer-socmed {
     margin-bottom: 1.5rem;
+    display: flex;
+    justify-content: center;
 }
 
 .footer-socmed-h6 {
@@ -48,14 +133,56 @@
 .footer-socmed-icons {
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
 }
 
-.footer-icons-bg {
+.footer-icons-bg-tiktok {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 1rem;
     background-color: black ;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.footer-icons-bg-instagram {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #833AB4 0%, #FD1D1D 100%);
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.footer-icons-bg-youtube {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FF0000 ;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.footer-icons-bg-telegram {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0088CC ;
     width: 32px;
     height: 32px;
     border-radius: 50%;
@@ -69,16 +196,7 @@
     color: white;
 }
 
-.footer-copyright {
-    margin-bottom: 1.5rem;
-}
-
-.footer-copyright-h6 {
-    font-weight: 600;
-}
-
 .footer-logo-image {
-    background-color: black;
     border-radius: 30px;
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
@@ -86,18 +204,45 @@
     -o-border-radius: 30px;
     padding: 0.5rem;
     width: fit-content;
+    display: flex;
+    justify-content: center;
 }
 
 .footer-logo-image-img {
-    width: fit-content;
-    height: 30px;
+    width: 170px;
+}
+
+.footer-section-bottom {
+    background-color: #F3F4F5;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-section-bottom-col {
+    display: flex;
+    justify-content: center;
 }
 
 @media only screen and (max-width:991px){
     .footer-section {
         font-family: "Poppins",sans-serif;
-        padding-top: 0;
-        padding-bottom: 5rem;
+        padding-top: 40px;
+        padding-bottom: 10px;
+    }
+
+    .footer-links-col-baru {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .footer-logo-image-img {
+        width: 120px;
+    }
+
+    .footer-socmed-icons {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
     }
 
     .footer-col-1 {
@@ -105,6 +250,62 @@
     }
     .footer-col-2 {
         margin-bottom: 2rem;
+    }
+
+    .footer-col-3 {
+        margin-bottom: 2rem;
+    }
+}
+
+@media only screen and (max-width:430px){
+    .footer-section {
+        display: flex;
+        font-family: "Poppins",sans-serif;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        justify-content: center;
+    }
+
+    .footer-logo-image {
+        display: flex;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 1.5rem;
+    }
+
+    .footer-logo-image-img {
+        width: 160px;
+    }
+
+    .footer-col-1 {
+        margin-bottom: 2rem;
+    }
+    .footer-col-2 {
+        margin-bottom: 2rem;
+    }
+
+    .footer-links {
+        display: flex;
+    }
+
+    .footer-links-col-baru {
+        display: flex;
+    }
+
+    .footer-links-xm-bg {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer-links-exness-bg {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer-charting-bg {
+        display: flex;
+        justify-content: center;
     }
 
     .footer-col-3 {
