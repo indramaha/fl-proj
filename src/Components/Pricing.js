@@ -27,7 +27,6 @@ const Pricing = () => {
                     <div className='pricing-card-title'>
                         <h3 className='pricing-card-title-h3'>EARLY BIRD IDR</h3><h3 className='pricing-card-title-h3-1899k'>1899K</h3><BsExclamationLg className='pricing-card-title-exclamation'/><BsExclamationLg className='pricing-card-title-exclamation'/><BsExclamationLg className='pricing-card-title-exclamation'/>
                     </div>
-
                     <div className='pricing-card-text-parent'>
                         <div className='pricing-card-text-desc'>
                             <div className='pricing-card-text-desc-bg'>
