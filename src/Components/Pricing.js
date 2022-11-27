@@ -1,6 +1,5 @@
 import './Pricing.css'
 import {ImFire} from 'react-icons/im'
-import {SlDiamond} from 'react-icons/sl'
 import {BsExclamationLg, BsCheck} from 'react-icons/bs'
 import { Button } from 'react-bootstrap'
 import TigaGambar from '../assets/mOCKUP TOPED 700 X 700.png'

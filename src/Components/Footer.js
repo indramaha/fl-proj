@@ -6,7 +6,6 @@ import FlLogo from '../assets/TRANSPARENT-05.png'
 import XmIcon from '../assets/xm.png'
 import ExnessIcon from '../assets/exness.png'
 import TradingViewIcon from '../assets/tradinview.png'
-import FooterBG from '../assets/wave.svg'
 import './Footer.css'
 
 const Footer = () => {
