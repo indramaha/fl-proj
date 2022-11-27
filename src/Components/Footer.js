@@ -38,7 +38,7 @@ const Footer = () => {
                                 <Col>
                                     <div className='footer-links-col-baru'>
                                         <div className='footer-links-xm-bg'>
-                                            <a href='' className='footer-links-xm'><img src={XmIcon} alt="" className='footer-links-xm-icon'/></a>
+                                            <a href='https://clicks.pipaffiliates.com/c?c=570284&l=id&p=' className='footer-links-xm'><img src={XmIcon} alt="" className='footer-links-xm-icon'/></a>
                                         </div>
                                         <div className='footer-links-exness-bg'>
                                             <a href='https://one.exness-track.com/a/c_ikzka8mfh7' className='footer-links-exness'><img src={ExnessIcon} alt="" className='footer-links-exness-icon'/></a>
