@@ -6,7 +6,6 @@
 }
 
 .footer-row {
-    justify-content: space-between;
     display: flex;
 }
 
@@ -102,6 +101,20 @@
     -o-border-radius: 4px;
 }
 
+.footer-tokped-bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    background-color: white;
+    width: 35px;
+    height: 35px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
 .footer-links-xm-icon {
     width: 30px;
 }
@@ -111,6 +124,10 @@
 }
 
 .footer-charting-icon {
+    width: 30px;
+}
+
+.footer-tokped-icon {
     width: 30px;
 }
 
@@ -133,7 +150,7 @@
 .footer-socmed-icons {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .footer-icons-bg-tiktok {

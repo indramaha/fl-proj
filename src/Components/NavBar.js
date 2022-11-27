@@ -29,10 +29,10 @@ function NavBar() {
                   FriendLine.Co
                 </Offcanvas.Title>
               </Offcanvas.Header>
-              <Offcanvas.Body>
-                <Nav className="justify-content-end flex-grow-1 pe-3 align-items-center navbar-item-isi">
-                    <div>
-                        <Button className='me-3 navbar-button' variant='outline-dark' href='https://t.me/friendlineco'>
+              <Offcanvas.Body className='navbar-offcan-body'>
+                <Nav className="justify-content-end flex-grow-1 align-items-center navbar-item-isi">
+                    <div className='navbar-button-join-tele-bg'>
+                        <Button className='navbar-button' variant='outline-dark' href='https://t.me/friendlineco'>
                             <div className='navbar-join-tele'>
                                 <div className='navbar-telgram-icon'>
                                     <img src={TeleLogo} alt='navbar-telegram-icon' className='navbar-telegram-icon-img'></img>

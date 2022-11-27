@@ -14,6 +14,10 @@
     padding: 5px 10px;
 }
 
+.navbar-button-join-tele-bg {
+    margin-right: 10px;
+}
+
 .navbar-join-tele {
     display: flex;
     align-items: center;
@@ -39,11 +43,22 @@
 }
 
 @media only screen and (max-width: 991px){
+    .navbar-button-join-tele-bg {
+        margin-right: 0px;
+    }
+
     .navbar-button {
         margin-bottom: 20px;
     }
     .navbar-button-joinfl {
         display: none;
+    }
+
+    .navbar-offcan-body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 !important;
     }
 }
 

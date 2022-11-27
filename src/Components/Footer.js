@@ -6,6 +6,7 @@ import FlLogo from '../assets/TRANSPARENT-05.png'
 import XmIcon from '../assets/xm.png'
 import ExnessIcon from '../assets/exness.png'
 import TradingViewIcon from '../assets/tradinview.png'
+import TokopediaIcon from '../assets/tokopedia.jpg'
 import './Footer.css'
 
 const Footer = () => {
@@ -14,7 +15,7 @@ const Footer = () => {
             <div className='footer-section'>
                 {/* <Container> */}
                     <div>
-                        <Row className='footer-row'>
+                        <Row className='footer-row g-0'>
                             {/* <Col lg={3} className='footer-col-1'>
                                 <div>
                                     <div className='footer-charting'>
@@ -44,6 +45,9 @@ const Footer = () => {
                                         </div>
                                         <div className='footer-charting-bg'>
                                             <a href='https://www.tradingview.com/u/FriendlineCo/' className='footer-charting'><img src={TradingViewIcon} alt="" className='footer-charting-icon'/></a>
+                                        </div>
+                                        <div className='footer-tokped-bg'>
+                                            <a href='https://tokopedia.link/9hhHkwlKgvb' className='footer-tokped'><img src={TokopediaIcon} alt='' className="footer-tokped-icon"/></a>
                                         </div>
                                     </div>
                                 </Col>
@@ -75,7 +79,7 @@ const Footer = () => {
                 <Container>
                     <Row>
                         <Col className='footer-section-bottom-col'>
-                            <p>Copyright© 2022 FriendlinCo</p>
+                            <p>Copyright© 2022 FriendlineCo</p>
                         </Col>
                     </Row>
                 </Container>
