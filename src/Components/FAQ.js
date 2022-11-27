@@ -1,6 +1,5 @@
 import { Col, Container, Row } from 'react-bootstrap';
 import Accordion from 'react-bootstrap/Accordion';
-import Banner from '../assets/bANNER YOUTUBE-01.png'
 import './FAQ.css'
 
 function FAQ() {

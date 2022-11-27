@@ -12,7 +12,7 @@ const Footer = () => {
     return(
         <div>
             <div className='footer-section'>
-                <Container>
+                {/* <Container> */}
                     <div>
                         <Row className='footer-row'>
                             {/* <Col lg={3} className='footer-col-1'>
@@ -30,25 +30,25 @@ const Footer = () => {
                                     <img src={FlLogo} alt='logo-footer' className='footer-logo-image-img'/>
                                 </div>
                             </Col>
-                            <Col lg={3} md={4} className='footer-col-2'>
+                            <Col lg={4} md={4} className='footer-col-2'>
                                 <div className='footer-links'>
                                     <h6 className='footer-links-h6'>Links</h6>
                                 </div>
                                 <Col>
                                     <div className='footer-links-col-baru'>
                                         <div className='footer-links-xm-bg'>
-                                            <a href='' className='footer-links-xm'><img src={XmIcon} className='footer-links-xm-icon'/></a>
+                                            <a href='' className='footer-links-xm'><img src={XmIcon} alt="" className='footer-links-xm-icon'/></a>
                                         </div>
                                         <div className='footer-links-exness-bg'>
-                                            <a href='https://one.exness-track.com/a/c_ikzka8mfh7' className='footer-links-exness'><img src={ExnessIcon} className='footer-links-exness-icon'/></a>
+                                            <a href='https://one.exness-track.com/a/c_ikzka8mfh7' className='footer-links-exness'><img src={ExnessIcon} alt="" className='footer-links-exness-icon'/></a>
                                         </div>
                                         <div className='footer-charting-bg'>
-                                            <a href='https://www.tradingview.com/u/FriendlineCo/' className='footer-charting'><img src={TradingViewIcon} className='footer-charting-icon'/></a>
+                                            <a href='https://www.tradingview.com/u/FriendlineCo/' className='footer-charting'><img src={TradingViewIcon} alt="" className='footer-charting-icon'/></a>
                                         </div>
                                     </div>
                                 </Col>
                             </Col>
-                            <Col lg={3} md={4} className='footer-col-3'>
+                            <Col lg={4} md={4} className='footer-col-3'>
                                 <div className='footer-socmed'>
                                     <h6 className='footer-socmed-h6'>Connect with us</h6>
                                 </div>
@@ -69,8 +69,7 @@ const Footer = () => {
                             </Col>
                         </Row>
                     </div>
-                </Container>
-                
+                {/* </Container> */}
             </div>
             <div className='footer-section-bottom'>
                 <Container>

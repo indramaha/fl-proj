@@ -16,7 +16,7 @@ function ContactForm() {
             <p className='form-success-p'>Selesaikan Pembayaran!</p>
             <div className='form-norek'>
                 <div className='form-logo-bca-bg'>
-                    <img src={LogoBCA} />
+                    <img src={LogoBCA} alt=""/>
                 </div>
                 <p className='form-success-p'>Nomor Rekening BCA:</p>
                 <p className='form-success-p'>7725238045</p>
