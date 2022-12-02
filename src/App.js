@@ -6,6 +6,7 @@ import Pricing from './Components/Pricing';
 import ContactForm from './Components/Form';
 import FAQ from './Components/FAQ';
 import Footer from './Components/Footer';
+import Banner from './Components/Banner';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Pricing />
       <ContactForm />
       <FAQ />
+      <Banner />
       <Footer />
     </div>
   );
