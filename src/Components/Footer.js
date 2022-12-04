@@ -2,6 +2,7 @@ import { Col, Container, Row } from 'react-bootstrap'
 import {FiInstagram, FiYoutube} from 'react-icons/fi'
 import {FaTiktok} from 'react-icons/fa'
 import {TbBrandTelegram} from 'react-icons/tb'
+import {TbBrandDiscord} from 'react-icons/tb'
 import FlLogo from '../assets/TRANSPARENT-05.png'
 import XmIcon from '../assets/xm.png'
 import ExnessIcon from '../assets/exness.png'
@@ -68,6 +69,9 @@ const Footer = () => {
                                     </div>
                                     <div className='footer-icons-bg-telegram'>
                                         <a href='https://t.me/friendlineco'><TbBrandTelegram size={20} className='footer-icons-icon'/></a>
+                                    </div>
+                                    <div className='footer-icons-bg-discord'>
+                                        <a href='https://discord.gg/UQvnkujM'><TbBrandDiscord size={20} className='footer-icons-icon' /></a>
                                     </div>
                                 </div>
                             </Col>

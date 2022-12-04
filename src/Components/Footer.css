@@ -50,7 +50,8 @@
 
 .footer-links-col-baru {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 24px;
 }
 
 .footer-links-xm {
@@ -150,7 +151,8 @@
 .footer-socmed-icons {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 24px;
 }
 
 .footer-icons-bg-tiktok {
@@ -200,6 +202,20 @@
     align-items: center;
     justify-content: center;
     background-color: #0088CC ;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.footer-icons-bg-discord {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #7289DA ;
     width: 32px;
     height: 32px;
     border-radius: 50%;
