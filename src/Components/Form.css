@@ -167,6 +167,14 @@ p, li {
     justify-content: space-between;
 }
 
+.checklist {
+    color: green;
+}
+
+.xlist {
+    color: red;
+}
+
 .detail-order-nocupon {
     display: flex;
     justify-content: space-between;

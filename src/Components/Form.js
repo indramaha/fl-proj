@@ -367,7 +367,7 @@ function ContactForm() {
                                                                                 </ul>
                                                                             </div>
                                                                             <div>
-                                                                                <FiCheck />
+                                                                                <FiCheck className='checklist'/>
                                                                             </div>
                                                                         </div>
                                                                         <div className='detail-order-facility-bg'>
@@ -377,7 +377,7 @@ function ContactForm() {
                                                                                 </ul>
                                                                             </div>
                                                                             <div>
-                                                                                <FiCheck />
+                                                                                <FiCheck className='checklist'/>
                                                                             </div>
                                                                         </div>
                                                                         <div className='detail-order-facility-bg'>
@@ -387,7 +387,7 @@ function ContactForm() {
                                                                                 </ul>
                                                                             </div>
                                                                             <div>
-                                                                                <FiCheck />
+                                                                                <FiCheck className='checklist'/>
                                                                             </div>
                                                                         </div>
                                                                         <div className='detail-order-facility-bg'>
@@ -397,7 +397,17 @@ function ContactForm() {
                                                                                 </ul>
                                                                             </div>
                                                                             <div>
-                                                                                <FiCheck />
+                                                                                <FiCheck className='checklist'/>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div className='detail-order-facility-bg'>
+                                                                            <div>
+                                                                                <ul>
+                                                                                    <li>1 on 1 mentoring</li>
+                                                                                </ul>
+                                                                            </div>
+                                                                            <div>
+                                                                                <FiX className='xlist'/>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -492,7 +502,7 @@ function ContactForm() {
                                                                                 </ul>
                                                                             </div>
                                                                             <div>
-                                                                                <FiX />
+                                                                                <FiX className='xlist'/>
                                                                             </div>
                                                                         </div>
                                                                         <div className='detail-order-facility-bg'>
@@ -502,7 +512,7 @@ function ContactForm() {
                                                                                 </ul>
                                                                             </div>
                                                                             <div>
-                                                                                <FiX />
+                                                                                <FiX className='xlist'/>
                                                                             </div>
                                                                         </div>
                                                                         <div className='detail-order-facility-bg'>
@@ -512,7 +522,7 @@ function ContactForm() {
                                                                                 </ul>
                                                                             </div>
                                                                             <div>
-                                                                                <FiCheck />
+                                                                                <FiCheck className='checklist'/>
                                                                             </div>
                                                                         </div>
                                                                         <div className='detail-order-facility-bg'>
@@ -522,7 +532,17 @@ function ContactForm() {
                                                                                 </ul>
                                                                             </div>
                                                                             <div>
-                                                                                <FiX />
+                                                                                <FiX className='xlist'/>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div className='detail-order-facility-bg'>
+                                                                            <div>
+                                                                                <ul>
+                                                                                    <li>1 on 1 mentoring</li>
+                                                                                </ul>
+                                                                            </div>
+                                                                            <div>
+                                                                                <FiX className='xlist'/>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -553,7 +573,7 @@ function ContactForm() {
                                                                                             <p>Total</p>
                                                                                         </div>
                                                                                         <div>
-                                                                                            <p>Rp 249.000</p>
+                                                                                            <p>Rp 249.000/mounth</p>
                                                                                         </div>
                                                                                     </div>
                                                                                 </div>
@@ -617,7 +637,7 @@ function ContactForm() {
                                                                                 </ul>
                                                                             </div>
                                                                             <div>
-                                                                                <FiCheck />
+                                                                                <FiCheck className='checklist'/>
                                                                             </div>
                                                                         </div>
                                                                         <div className='detail-order-facility-bg'>
@@ -627,7 +647,7 @@ function ContactForm() {
                                                                                 </ul>
                                                                             </div>
                                                                             <div>
-                                                                                <FiCheck />
+                                                                                <FiCheck className='checklist'/>
                                                                             </div>
                                                                         </div>
                                                                         <div className='detail-order-facility-bg'>
@@ -637,7 +657,7 @@ function ContactForm() {
                                                                                 </ul>
                                                                             </div>
                                                                             <div>
-                                                                                <FiCheck />
+                                                                                <FiCheck className='checklist'/>
                                                                             </div>
                                                                         </div>
                                                                         <div className='detail-order-facility-bg'>
@@ -647,7 +667,17 @@ function ContactForm() {
                                                                                 </ul>
                                                                             </div>
                                                                             <div>
-                                                                                <FiCheck />
+                                                                                <FiCheck className='checklist'/>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div className='detail-order-facility-bg'>
+                                                                            <div>
+                                                                                <ul>
+                                                                                    <li>1 on 1 mentoring</li>
+                                                                                </ul>
+                                                                            </div>
+                                                                            <div>
+                                                                                <FiCheck className='checklist'/>
                                                                             </div>
                                                                         </div>
                                                                     </div>
