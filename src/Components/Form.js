@@ -19,7 +19,7 @@ function ContactForm() {
     const [show, setShow] = useState(false);
     const [cupon, setCupon] = useState("")
     const [isCuponTrue, setIsCuponTrue] = useState(false)
-    // console.log(cupon);
+    console.log(cupon, isCuponTrue);
     const [packages, setPackages] = useState("-")
     // console.log(packages)
 
@@ -32,9 +32,17 @@ function ContactForm() {
     }
 
     const handleCheckCopun = () => {
-        if(cupon === "UNIONFX" && packages === "FL Project"){
+        if(cupon === "Unionfx" && packages === "FL Project"){
             setIsCuponTrue(true)
             setShow(true)
+        } else if(cupon === "Cuan" && packages === "FL Pro"){
+            setIsCuponTrue(true)
+            setShow(true)
+        } else if(cupon === "2023" && packages === "1 on 1 Course"){
+            setIsCuponTrue(true)
+            setShow(true)
+        } else {
+            setIsCuponTrue(false)
         }
     }
     if (state.succeeded) {
@@ -242,7 +250,9 @@ function ContactForm() {
                         <strong className="me-auto">Cupon Added</strong>
                         <small className="text-muted">just now</small>
                         </Toast.Header>
-                        <Toast.Body>congrats... Discount 30%</Toast.Body>
+                        <Toast.Body>
+                            congrats... Discount added
+                        </Toast.Body>
                     </Toast>
                 </ToastContainer>
                 <div className='form-background'>
@@ -417,7 +427,7 @@ function ContactForm() {
                                                                     <Form.Control type='text' name="Cupon" placeholder='optional' onChange={handleCupon}/>
                                                                 </Form.Group>
                                                                 <div className='mb-3'>
-                                                                    <button onClick={handleCheckCopun}>Add Cupon</button>
+                                                                    <button onClick={handleCheckCopun}>Check Cupon</button>
                                                                 </div>
                                                                 <div>
                                                                     {(() => {
@@ -444,7 +454,7 @@ function ContactForm() {
                                                                                 </div>
                                                                                 
                                                                             )
-                                                                        } else if(isCuponTrue === true && cupon === "UNIONFX"){
+                                                                        } else if(isCuponTrue === true && cupon === "Unionfx"){
                                                                             return(
                                                                                 <div>
                                                                                     <div className='detail-order-with-cupon'>
@@ -552,7 +562,7 @@ function ContactForm() {
                                                                     <Form.Control type='text' name="Cupon" placeholder='optional' onChange={handleCupon}/>
                                                                 </Form.Group>
                                                                 <div className='mb-3'>
-                                                                    <button onClick={handleCheckCopun}>Add Cupon</button>
+                                                                    <button onClick={handleCheckCopun}>Check Cupon</button>
                                                                 </div>
                                                                 <div>
                                                                     {(() => {
@@ -579,15 +589,15 @@ function ContactForm() {
                                                                                 </div>
                                                                                 
                                                                             )
-                                                                        } else if(isCuponTrue === true && cupon === "!UNIONFX"){
+                                                                        } else if(isCuponTrue === true && cupon === "Cuan"){
                                                                             return(
                                                                                 <div>
                                                                                     <div className='detail-order-with-cupon'>
                                                                                         <div>
-                                                                                            <p>Discount 30%</p>
+                                                                                            <p>Discount 20%</p>
                                                                                         </div>
                                                                                         <div className='detail-order-with-cupon-price'>
-                                                                                            <p>- Rp 1.050.000</p>
+                                                                                            <p>- Rp 49.800</p>
                                                                                         </div>
                                                                                     </div>
                                                                                     <hr/>
@@ -596,7 +606,7 @@ function ContactForm() {
                                                                                             <p>Total</p>
                                                                                         </div>
                                                                                         <div>
-                                                                                            <p>Rp 2.450.000</p>
+                                                                                            <p>Rp 199.200</p>
                                                                                         </div>
                                                                                     </div>
                                                                                 </div>
@@ -687,7 +697,7 @@ function ContactForm() {
                                                                     <Form.Control type='text' name="Cupon" placeholder='optional' onChange={handleCupon}/>
                                                                 </Form.Group>
                                                                 <div className='mb-3'>
-                                                                    <button onClick={handleCheckCopun}>Add Cupon</button>
+                                                                    <button onClick={handleCheckCopun}>Check Cupon</button>
                                                                 </div>
                                                                 <div>
                                                                     {(() => {
@@ -714,15 +724,15 @@ function ContactForm() {
                                                                                 </div>
                                                                                 
                                                                             )
-                                                                        } else if(isCuponTrue === true && cupon === "!UNIONFX"){
+                                                                        } else if(isCuponTrue === true && cupon === "2023"){
                                                                             return(
                                                                                 <div>
                                                                                     <div className='detail-order-with-cupon'>
                                                                                         <div>
-                                                                                            <p>Discount 30%</p>
+                                                                                            <p>Discount 20%</p>
                                                                                         </div>
                                                                                         <div className='detail-order-with-cupon-price'>
-                                                                                            <p>- Rp 1.050.000</p>
+                                                                                            <p>- Rp 1.400.000</p>
                                                                                         </div>
                                                                                     </div>
                                                                                     <hr/>
@@ -731,7 +741,7 @@ function ContactForm() {
                                                                                             <p>Total</p>
                                                                                         </div>
                                                                                         <div>
-                                                                                            <p>Rp 2.450.000</p>
+                                                                                            <p>Rp 5.600.000</p>
                                                                                         </div>
                                                                                     </div>
                                                                                 </div>
