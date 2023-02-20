@@ -16,7 +16,7 @@ function Hero() {
                         <Col className='hero-col-1-row-co-2'>
                             <p className='hero-col-1-row-co-2-p'>Komunitas trading fun & friendly di Indonesia, yang menyediakan jasa konsultasi trading forex dan akan membimbing Anda untuk bisa trading dengan profit konsisten.</p>
                         </Col>
-                        <Col className='hero-col-1-row-co-3'>
+                        <Col className='hero-col-1-row-co-3 mt-4'>
                             <Button href='#pricing' variant='dark' className='hero-button'>DAFTAR SEKARANG</Button>
                         </Col>
                     </Row>

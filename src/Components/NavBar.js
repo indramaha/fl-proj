@@ -44,7 +44,7 @@ function NavBar() {
                         </Button>
                     </div>
                     <div className='navbar-button-joinfl'>
-                        <Button href='#form' className='me-3' variant='dark'>
+                        <Button href='#pricing' className='me-3' variant='dark'>
                             <div className='navbar-applynow'>
                                 <div>
                                   Join Friendline Project

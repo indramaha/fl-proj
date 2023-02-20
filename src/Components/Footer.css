@@ -2,7 +2,7 @@
     font-family: "Poppins",sans-serif;
     padding: 3rem 0;
     bottom: 0 !important;
-    background-color: #F3F4F5;
+    /* background-color: #F3F4F5; */
 }
 
 .footer-row {
@@ -246,7 +246,7 @@
 }
 
 .footer-section-bottom {
-    background-color: #F3F4F5;
+    /* background-color: #F3F4F5; */
     display: flex;
     justify-content: center;
 }
@@ -265,7 +265,7 @@
 
     .footer-links-col-baru {
         display: flex;
-        justify-content: space-evenly;
+        justify-content: center;
     }
 
     .footer-logo-image-img {
@@ -275,7 +275,7 @@
     .footer-socmed-icons {
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
+        justify-content: center;
     }
 
     .footer-col-1 {

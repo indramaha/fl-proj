@@ -1,25 +1,14 @@
 import './App.css';
-import NavBar from './Components/NavBar';
-import Hero from './Components/Hero';
-import Layanan from './Components/Layanan';
-import Pricing from './Components/Pricing';
-import ContactForm from './Components/Form';
-import FAQ from './Components/FAQ';
-import Footer from './Components/Footer';
-import Banner from './Components/Banner';
+import { Route, Routes } from 'react-router-dom';
+import HomePage from './pages/HomePage';
+import Course from './pages/Course';
 
 function App() {
   return (
-    <div>
-      <NavBar/>
-      <Hero />
-      <Layanan />
-      <Pricing />
-      <ContactForm />
-      <FAQ />
-      <Banner />
-      <Footer />
-    </div>
+    <Routes>
+      <Route path="/" element={<HomePage />}/>
+      <Route path='/regis' element={<Course />} />
+    </Routes>
   );
 }
 

@@ -1,17 +1,28 @@
+p, li {
+    margin: 0 !important;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
 .form-section {
     padding: 5rem 0;
     font-family: "Poppins",sans-serif;
-    background-color: #F3F4F5;
+    /* background-color: #F3F4F5; */
+}
+
+.form-background {
+    display: flex;
+    justify-content: space-around;
 }
 
 .form-form-bg {
-    max-width: 500px;
+    width: 500px;
+    height: fit-content;
     border-radius: 20px;
     background-color: white;
-    box-shadow: 0px 2px 6px rgb(136, 136, 136);
-    margin-left: auto;
-    margin-right: auto;
-    padding: 2.5rem 0;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+    padding: 2rem 0;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
@@ -48,6 +59,7 @@
 
 .form-button-submit {
     background-color: #615cff !important;
+    width: 100%;
 }
 
 .form-button-submit:hover {
@@ -97,6 +109,92 @@
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
     margin-bottom: 1rem;
+}
+
+.form-cupon {
+    display: none;
+}
+
+.detail-order-bg {
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+    width: 450px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding: 24px;
+    height: fit-content;
+}
+
+.detail-order-title p {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.detail-order-title-name {
+    margin-top: 10px;
+}
+
+.detail-order-accord .accordion {
+    --bs-accordion-border-color: transparent ;
+    --bs-accordion-btn-focus-box-shadow: transparant ;
+    --bs-accordion-active-color: transparant ;
+    --bs-accordion-active-bg: transparant ;
+}
+
+.detail-order-total-header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.detail-order-body-title p {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+}
+
+.detail-order-price-bg {
+    display: flex;
+    justify-content: space-between;
+}
+
+.detail-order-facility-bg {
+    display: flex;
+    justify-content: space-between;
+}
+
+.detail-order-nocupon {
+    display: flex;
+    justify-content: space-between;
+}
+
+.code-cupon-title {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+}
+
+.detail-order-nocupon-total {
+    display: flex;
+    justify-content: space-between;
+}
+
+.detail-order-with-cupon {
+    display: flex;
+    justify-content: space-between;
+}
+
+.detail-order-with-cupon-price p {
+    color: red;
+}
+
+.detail-order-with-cupon-total {
+    display: flex;
+    justify-content: space-between;
 }
 
 @media only screen and (max-width: 428px){
