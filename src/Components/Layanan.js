@@ -56,7 +56,7 @@ function Layanan() {
                             <Col className='layanan-row-col-2-row-col'>
                                 <div className='layanan-card'>
                                     <Card.Body>
-                                        <Card.Title className='layanan-card-title'>LIFETIME ACCES</Card.Title>
+                                        <Card.Title className='layanan-card-title'>LIFETIME ACCESS</Card.Title>
                                         <img src={Kartu} alt='kartu-card' className='layanan-card-title-gambar' />
                                         <hr />
                                         <Card.Text>

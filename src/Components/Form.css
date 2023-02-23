@@ -14,6 +14,7 @@ p, li {
 .form-background {
     display: flex;
     justify-content: space-around;
+    gap: 2rem;
 }
 
 .form-form-bg {
@@ -117,7 +118,7 @@ p, li {
 
 .detail-order-bg {
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
-    width: 450px;
+    width: 500px;
     border-radius: 20px;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
@@ -205,9 +206,17 @@ p, li {
     justify-content: space-between;
 }
 
+@media only screen and (max-width: 1024px){
+    .form-background {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+}
+
 @media only screen and (max-width: 428px){
     .form-form-bg {
-        max-width: 360px;
+        width: 500px;
         border-radius: 20px;
         box-shadow: 2px 2px 6px rgb(122, 122, 122);
         margin-left: auto;
@@ -219,6 +228,12 @@ p, li {
         -o-border-radius: 20px;
     }
 
+    .form-section {
+        padding: 2rem 0;
+        font-family: "Poppins",sans-serif;
+        /* background-color: #F3F4F5; */
+    }
+
     .form-form {
         display: flex;
         flex-direction: column;
@@ -226,4 +241,17 @@ p, li {
         margin-left: auto;
         margin-right: auto;
     }
+
+    .detail-order-bg {
+        box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+        width: 500px;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+        padding: 24px;
+        height: fit-content;
+    }
+    
 }

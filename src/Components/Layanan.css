@@ -129,4 +129,19 @@
         padding: 2rem 2rem;
         width: 25rem;
     }
+
+    .layanan-row-col-1-h31 {
+        font-size: 2rem;
+        font-weight: 600;
+        color: #212529;
+        /* text-shadow: 2px 2px 4px rgb(22, 22, 22); */
+    }
+
+    .layanan-row-col-1-h32 {
+        font-size: 2rem;
+        font-weight: 600;
+        margin-bottom: 4rem;
+        color: #212529;
+        /* text-shadow: 2px 2px 4px rgb(95, 95, 95); */
+    }
 }

@@ -403,7 +403,7 @@ function ContactForm() {
                                                                         <div className='detail-order-facility-bg'>
                                                                             <div>
                                                                                 <ul>
-                                                                                    <li>coaching & mentoring</li>
+                                                                                    <li>Coaching & Mentoring</li>
                                                                                 </ul>
                                                                             </div>
                                                                             <div>
@@ -413,7 +413,7 @@ function ContactForm() {
                                                                         <div className='detail-order-facility-bg'>
                                                                             <div>
                                                                                 <ul>
-                                                                                    <li>1 on 1 mentoring</li>
+                                                                                    <li>1 on 1 Mentoring</li>
                                                                                 </ul>
                                                                             </div>
                                                                             <div>
@@ -522,7 +522,7 @@ function ContactForm() {
                                                                                 </ul>
                                                                             </div>
                                                                             <div>
-                                                                                <FiX className='xlist'/>
+                                                                                <FiCheck className='checklist'/>
                                                                             </div>
                                                                         </div>
                                                                         <div className='detail-order-facility-bg'>
@@ -538,7 +538,7 @@ function ContactForm() {
                                                                         <div className='detail-order-facility-bg'>
                                                                             <div>
                                                                                 <ul>
-                                                                                    <li>coaching & mentoring</li>
+                                                                                    <li>Coaching & Mentoring</li>
                                                                                 </ul>
                                                                             </div>
                                                                             <div>
@@ -548,7 +548,7 @@ function ContactForm() {
                                                                         <div className='detail-order-facility-bg'>
                                                                             <div>
                                                                                 <ul>
-                                                                                    <li>1 on 1 mentoring</li>
+                                                                                    <li>1 on 1 Mentoring</li>
                                                                                 </ul>
                                                                             </div>
                                                                             <div>
@@ -673,7 +673,7 @@ function ContactForm() {
                                                                         <div className='detail-order-facility-bg'>
                                                                             <div>
                                                                                 <ul>
-                                                                                    <li>coaching & mentoring</li>
+                                                                                    <li>Coaching & Mentoring</li>
                                                                                 </ul>
                                                                             </div>
                                                                             <div>
@@ -683,7 +683,7 @@ function ContactForm() {
                                                                         <div className='detail-order-facility-bg'>
                                                                             <div>
                                                                                 <ul>
-                                                                                    <li>1 on 1 mentoring</li>
+                                                                                    <li>1 on 1 Mentoring</li>
                                                                                 </ul>
                                                                             </div>
                                                                             <div>
