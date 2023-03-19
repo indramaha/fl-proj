@@ -1,0 +1,8 @@
+.modal-content {
+    width: fit-content !important;
+}
+
+.modal.show .modal-dialog {
+    display: flex;
+    justify-content: center;
+}

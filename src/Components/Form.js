@@ -287,7 +287,7 @@ function ContactForm() {
                             </Form.Group>
                             <Form.Group className="mb-5">
                                 <Form.Label>Package Course</Form.Label>
-                                <Form.Select name='Package-Course' onClick={handlePackage}>
+                                <Form.Select name='Package-Course' onChange={handlePackage}>
                                     <option value="">Select Course</option>
                                     <option value="FL Pro">FL Pro - 249k</option>
                                     <option value="FL Project">FL Project - 3500k</option>
