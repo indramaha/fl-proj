@@ -24,14 +24,13 @@ function Layanan() {
                                 <h3 className='layanan-row-col-1-h32'>3 IN 1 MENTORSHIP</h3>
                             </div>
                     </Col>
-                    <Col lg='9' 
-                        className='layanan-row-col-2' 
-                        data-aos="fade-up"
-                        data-aos-anchor-placement="top-top"
-                        data-aos-duration="800"
-                    >
+                    <Col lg='9' className='layanan-row-col-2'>
                         <Row className='layanan-row-col-2-row'>
-                            <Col className='layanan-row-col-2-row-col' >
+                            <Col className='layanan-row-col-2-row-col' 
+                                data-aos="fade-up"
+                                data-aos-anchor-placement="bottom-bottom"
+                                data-aos-duration="800"
+                            >
                                 <div className='layanan-card'>
                                     <Card.Body>
                                         <Card.Title className='layanan-card-title'>LEARN</Card.Title>
@@ -49,7 +48,11 @@ function Layanan() {
                                     </Card.Body>
                                 </div>
                             </Col>
-                            <Col className='layanan-row-col-2-row-col'>
+                            <Col className='layanan-row-col-2-row-col'
+                                data-aos="fade-up"
+                                data-aos-anchor-placement="bottom-bottom"
+                                data-aos-duration="800"
+                            >
                                 <div className='layanan-card'>
                                     <Card.Body>
                                         <Card.Title className='layanan-card-title'>COMMUNITY</Card.Title>
@@ -61,7 +64,11 @@ function Layanan() {
                                     </Card.Body>
                                 </div>
                             </Col>
-                            <Col className='layanan-row-col-2-row-col'>
+                            <Col className='layanan-row-col-2-row-col'
+                                data-aos="fade-up"
+                                data-aos-anchor-placement="bottom-bottom"
+                                data-aos-duration="800"
+                            >
                                 <div className='layanan-card'>
                                     <Card.Body>
                                         <Card.Title className='layanan-card-title'>LIFETIME ACCESS</Card.Title>
