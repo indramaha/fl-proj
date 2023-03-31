@@ -11,7 +11,7 @@ function NavBar() {
   return (
     <div className='navbar-section'>
       {['lg'].map((expand) => (
-        <Navbar key={expand} bg="white" expand={expand} sticky="top" id='FL'>
+        <Navbar key={expand} bg="white" expand={expand} id='FL'>
           <Container>
             <Navbar.Brand href="/">
                 <img src={FlLogo} alt='navbar' className='navbar-image-img'>

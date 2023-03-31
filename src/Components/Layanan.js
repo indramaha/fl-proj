@@ -6,14 +6,17 @@ import Buku from '../assets/Buku.png';
 import Kartu from '../assets/Card.png';
 import Laptop from '../assets/Laptop.png'
 import "./Layanan.css"
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
 
 
+AOS.init();
 function Layanan() {
   return (
     <div className='layanan-section'>
             <Container>
                 <Row className='layanan-row'>
-                    <Col lg='4' className='layanan-row-col-1'>
+                    <Col lg='4' className='layanan-row-col-1' data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-duration="800">
                             <div>
                                 <h3 className='layanan-row-col-1-h31'>OUR SERVICES</h3>
                             </div>
@@ -21,9 +24,14 @@ function Layanan() {
                                 <h3 className='layanan-row-col-1-h32'>3 IN 1 MENTORSHIP</h3>
                             </div>
                     </Col>
-                    <Col lg='9' className='layanan-row-col-2'>
+                    <Col lg='9' 
+                        className='layanan-row-col-2' 
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="top-top"
+                        data-aos-duration="800"
+                    >
                         <Row className='layanan-row-col-2-row'>
-                            <Col className='layanan-row-col-2-row-col'>
+                            <Col className='layanan-row-col-2-row-col' >
                                 <div className='layanan-card'>
                                     <Card.Body>
                                         <Card.Title className='layanan-card-title'>LEARN</Card.Title>

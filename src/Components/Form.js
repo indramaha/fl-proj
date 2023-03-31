@@ -18,8 +18,9 @@ function ContactForm() {
     const [state, handleSubmit] = useForm("xzbwqrvd");
     const [show, setShow] = useState(false);
     const [cupon, setCupon] = useState("")
+    // console.log(cupon);
     const [isCuponTrue, setIsCuponTrue] = useState(false)
-    console.log(cupon, isCuponTrue);
+    // console.log(cupon, isCuponTrue);
     const [packages, setPackages] = useState("-")
     // console.log(packages)
 
@@ -32,7 +33,7 @@ function ContactForm() {
     }
 
     const handleCheckCopun = () => {
-        if(cupon === "Unionfx" && packages === "FL Project"){
+        if(cupon === "ramadhan" && packages === "FL Project"){
             setIsCuponTrue(true)
             setShow(true)
         } else if(cupon === "Cuan" && packages === "FL Pro"){
@@ -454,15 +455,15 @@ function ContactForm() {
                                                                                 </div>
                                                                                 
                                                                             )
-                                                                        } else if(isCuponTrue === true && cupon === "Unionfx"){
+                                                                        } else if(isCuponTrue === true && cupon === "ramadhan"){
                                                                             return(
                                                                                 <div>
                                                                                     <div className='detail-order-with-cupon'>
                                                                                         <div>
-                                                                                            <p>Discount 30%</p>
+                                                                                            <p>Discount 10%</p>
                                                                                         </div>
                                                                                         <div className='detail-order-with-cupon-price'>
-                                                                                            <p>- Rp 1.050.000</p>
+                                                                                            <p>- Rp 350.000</p>
                                                                                         </div>
                                                                                     </div>
                                                                                     <hr/>
@@ -471,7 +472,7 @@ function ContactForm() {
                                                                                             <p>Total</p>
                                                                                         </div>
                                                                                         <div>
-                                                                                            <p>Rp 2.450.000</p>
+                                                                                            <p>Rp 3.150.000</p>
                                                                                         </div>
                                                                                     </div>
                                                                                 </div>

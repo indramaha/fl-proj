@@ -7,7 +7,8 @@ import { Link } from 'react-router-dom'
 
 const Pricing = () => {
     return(
-        <div className='pricing-section' id='pricing'>
+        <div className='pricing-section' id='pricing' data-aos="fade-up"
+        data-aos-anchor-placement="top-top" data-aos-duration="1000">
             <div className='pricing-title'>
                 <h3 className='pricing-title-h3'>Pricing</h3>
             </div>
