@@ -185,6 +185,11 @@
 }
 
 @media only screen and (max-width: 430px) {
+    .pricing-section {
+        padding: 0.5rem 0;
+        font-family: "Poppins",sans-serif;
+    }
+
     .pricing-card-parent {
         position: relative;
         padding: 0 1rem;
