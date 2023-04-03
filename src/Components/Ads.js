@@ -12,8 +12,9 @@ function MyVerticallyCenteredModal(props) {
         >
             <FiX size={24} onClick={props.onHide}/>
             <button className='popup'>
-                <a href="https://clicks.pipaffiliates.com/c?m=117459&c=570284" referrerPolicy="no-referrer-when-downgrade">
-                        <img src="https://ads.pipaffiliates.com/i/117459?c=570284" width="120" height="600" referrerPolicy="no-referrer-when-downgrade" alt='ads'/>
+                <a href="https://clicks.pipaffiliates.com/c?m=118092&c=570284" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                    <img src="https://ads.pipaffiliates.com/i/118092?c=570284" width="728" height="90" referrerpolicy="no-referrer-when-downgrade" alt='ads'/>
                 </a>
             </button>
             {/* <Modal.Header closeButton>
