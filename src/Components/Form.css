@@ -1,257 +1,274 @@
-p, li {
-    margin: 0 !important;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 20px;
+p,
+li {
+	margin: 0 !important;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
 }
 
 .form-section {
-    padding: 5rem 0;
-    font-family: "Poppins",sans-serif;
-    /* background-color: #F3F4F5; */
+	padding: 5rem 0;
+	font-family: "Poppins", sans-serif;
+	/* background-color: #F3F4F5; */
 }
 
 .form-background {
-    display: flex;
-    justify-content: space-around;
-    gap: 2rem;
+	display: flex;
+	justify-content: space-around;
+	gap: 2rem;
 }
 
 .form-form-bg {
-    width: 500px;
-    height: fit-content;
-    border-radius: 20px;
-    background-color: white;
-    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
-    padding: 2rem 0;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
+	width: 500px;
+	height: fit-content;
+	border-radius: 20px;
+	background-color: white;
+	box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+	padding: 2rem 0;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-ms-border-radius: 20px;
+	-o-border-radius: 20px;
 }
 
 .form-title {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 2rem;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 2rem;
 }
 
 .form-title-h3 {
-    font-size: 2rem;
-    font-weight: 700;
+	font-size: 2rem;
+	font-weight: 700;
 }
 
 .form-muted-text {
-    font-size: 0.7rem !important;
+	font-size: 0.7rem !important;
 }
 
 .form-success {
-    padding: 3rem 0;
+	padding: 3rem 0;
 }
 
 .form-success-button-bg {
-    display: flex;
-    justify-content: center;
+	display: flex;
+	justify-content: center;
 }
 
-.form-success-button{
-    background-color: #615cff !important;
+.form-success-button {
+	background-color: #615cff !important;
 }
 
 .form-button-submit {
-    background-color: #615cff !important;
-    width: 100%;
+	background-color: #615cff !important;
+	width: 100%;
 }
 
 .form-button-submit:hover {
-    background-color: #615cff !important;
-    box-shadow: 2px 2px 6px rgb(95, 95, 95);
+	background-color: #615cff !important;
+	box-shadow: 2px 2px 6px rgb(95, 95, 95);
 }
 
 .form-form {
-    display: flex;
-    flex-direction: column;
-    max-width: 400px;
-    margin-left: auto;
-    margin-right: auto;
+	display: flex;
+	flex-direction: column;
+	max-width: 400px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .form-success-p {
-    display: flex;
-    justify-content: center;
+	display: flex;
+	justify-content: center;
 }
 
 .form-norek {
-    padding: 2rem 0;
-    max-width: 500px;
-    border-radius: 15px;
-    box-shadow: 2px 2px 4px 2px grey;
-    margin-right: auto;
-    margin-left: auto;
-    -webkit-border-radius: 15px;
-    -moz-border-radius: 15px;
-    -ms-border-radius: 15px;
-    -o-border-radius: 15px;
-    margin-bottom: 2rem;
+	padding: 2rem 0;
+	max-width: 500px;
+	border-radius: 15px;
+	box-shadow: 2px 2px 4px 2px grey;
+	margin-right: auto;
+	margin-left: auto;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	-ms-border-radius: 15px;
+	-o-border-radius: 15px;
+	margin-bottom: 2rem;
 }
 
 .form-logo-bca-bg {
-    padding: 0.4rem;
-    background-color: blue;
-    max-width: 150px;
-    height: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    justify-content: center;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
-    margin-bottom: 1rem;
+	padding: 0.4rem;
+	background-color: blue;
+	max-width: 150px;
+	height: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	justify-content: center;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	margin-bottom: 1rem;
 }
 
 .form-cupon {
-    display: none;
+	display: none;
 }
 
 .detail-order-bg {
-    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
-    width: 500px;
-    border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
-    padding: 24px;
-    height: fit-content;
+	box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+	width: 500px;
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-ms-border-radius: 20px;
+	-o-border-radius: 20px;
+	padding: 24px;
+	height: fit-content;
 }
 
 .detail-order-title p {
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 20px;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+}
+
+.buttonCuppon button {
+	background-color: rgb(215, 205, 255);
+	border: none;
+	color: #1008ff;
+	border-radius: 6px;
+	animation-duration: 1s;
+}
+
+.buttonCuppon button:hover {
+	background-color: rgb(51, 0, 255);
+	border: none;
+	box-shadow: 2px 3px 3px rgb(107, 102, 79);
+	color: #fdff74;
+	border-radius: 6px;
+	animation-duration: 1s;
 }
 
 .detail-order-title-name {
-    margin-top: 10px;
+	margin-top: 10px;
 }
 
 .detail-order-accord .accordion {
-    --bs-accordion-border-color: transparent ;
-    --bs-accordion-btn-focus-box-shadow: transparant ;
-    --bs-accordion-active-color: transparant ;
-    --bs-accordion-active-bg: transparant ;
+	--bs-accordion-border-color: transparent;
+	--bs-accordion-btn-focus-box-shadow: transparant;
+	--bs-accordion-active-color: transparant;
+	--bs-accordion-active-bg: transparant;
 }
 
 .detail-order-total-header {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .detail-order-body-title p {
-    font-size: 14px;
-    line-height: 20px;
-    font-weight: 700;
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: 700;
 }
 
 .detail-order-price-bg {
-    display: flex;
-    justify-content: space-between;
+	display: flex;
+	justify-content: space-between;
 }
 
 .detail-order-facility-bg {
-    display: flex;
-    justify-content: space-between;
+	display: flex;
+	justify-content: space-between;
 }
 
 .checklist {
-    color: green;
+	color: green;
 }
 
 .xlist {
-    color: red;
+	color: red;
 }
 
 .detail-order-nocupon {
-    display: flex;
-    justify-content: space-between;
+	display: flex;
+	justify-content: space-between;
 }
 
 .code-cupon-title {
-    font-size: 14px;
-    line-height: 20px;
-    font-weight: 700;
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: 700;
 }
 
 .detail-order-nocupon-total {
-    display: flex;
-    justify-content: space-between;
+	display: flex;
+	justify-content: space-between;
 }
 
 .detail-order-with-cupon {
-    display: flex;
-    justify-content: space-between;
+	display: flex;
+	justify-content: space-between;
 }
 
 .detail-order-with-cupon-price p {
-    color: red;
+	color: red;
 }
 
 .detail-order-with-cupon-total {
-    display: flex;
-    justify-content: space-between;
+	display: flex;
+	justify-content: space-between;
 }
 
-@media only screen and (max-width: 1024px){
-    .form-background {
-        display: flex;
-        justify-content: space-around;
-        flex-wrap: wrap;
-    }
+@media only screen and (max-width: 1024px) {
+	.form-background {
+		display: flex;
+		justify-content: space-around;
+		flex-wrap: wrap;
+	}
 }
 
-@media only screen and (max-width: 428px){
-    .form-form-bg {
-        width: 500px;
-        border-radius: 20px;
-        box-shadow: 2px 2px 6px rgb(122, 122, 122);
-        margin-left: auto;
-        margin-right: auto;
-        padding: 2.5rem 0;
-        -webkit-border-radius: 20px;
-        -moz-border-radius: 20px;
-        -ms-border-radius: 20px;
-        -o-border-radius: 20px;
-    }
+@media only screen and (max-width: 428px) {
+	.form-form-bg {
+		width: 500px;
+		border-radius: 20px;
+		box-shadow: 2px 2px 6px rgb(122, 122, 122);
+		margin-left: auto;
+		margin-right: auto;
+		padding: 2.5rem 0;
+		-webkit-border-radius: 20px;
+		-moz-border-radius: 20px;
+		-ms-border-radius: 20px;
+		-o-border-radius: 20px;
+	}
 
-    .form-section {
-        padding: 2rem 0;
-        font-family: "Poppins",sans-serif;
-        /* background-color: #F3F4F5; */
-    }
+	.form-section {
+		padding: 2rem 0;
+		font-family: "Poppins", sans-serif;
+		/* background-color: #F3F4F5; */
+	}
 
-    .form-form {
-        display: flex;
-        flex-direction: column;
-        max-width: 280px;
-        margin-left: auto;
-        margin-right: auto;
-    }
+	.form-form {
+		display: flex;
+		flex-direction: column;
+		max-width: 280px;
+		margin-left: auto;
+		margin-right: auto;
+	}
 
-    .detail-order-bg {
-        box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
-        width: 500px;
-        border-radius: 20px;
-        -webkit-border-radius: 20px;
-        -moz-border-radius: 20px;
-        -ms-border-radius: 20px;
-        -o-border-radius: 20px;
-        padding: 24px;
-        height: fit-content;
-    }
-    
+	.detail-order-bg {
+		box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+		width: 500px;
+		border-radius: 20px;
+		-webkit-border-radius: 20px;
+		-moz-border-radius: 20px;
+		-ms-border-radius: 20px;
+		-o-border-radius: 20px;
+		padding: 24px;
+		height: fit-content;
+	}
 }
